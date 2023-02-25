@@ -1,8 +1,8 @@
 # Python MadLib
 
--This is a Python program that prompts the user to enter adjectives, nouns, and verbs to fill in the blanks of a MadLib story. 
+-This is a Python program that prompts the user to enter adjectives, nouns, and a verb to fill in the blanks of a MadLib story. 
 
--The program uses the spaCy library to validate the input and ensure that the user enters adjectives, nouns, and verbs as required.
+-The program uses the spaCy library to validate the input and ensure that the user enters adjectives, nouns, and a verb as required.
 
 ### Usage
 
