@@ -2,7 +2,7 @@ import spacy
 
 nlp = spacy.load("en_core_web_sm")
 
-# Define a function to get the first token with an acceptable part of speech tag for a given Doc object
+# The purpose of this function is to retrieve the initial token that has a suitable part-of-speech tag for a specified Doc object.
 def get_pos(doc):
     for token in doc:
         if token.pos_ == "ADJ" or token.pos_ == "NOUN" or token.pos_ == "VERB":
